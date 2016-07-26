@@ -11,5 +11,12 @@
     "url": "ehrs-app"
   },
   "author": "ankur.soni@nagarro.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-ui-bootstrap": "^2.0.0",
+    "restangular": "^1.5.2",
+    "underscore": "^1.8.3"
+  }
 }
