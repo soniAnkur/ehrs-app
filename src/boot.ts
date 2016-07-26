@@ -10,7 +10,7 @@
 'use strict';
 
 export class Application {
-    public static APP_NAME : string = "ehrs-spa";
+    public static APP_NAME : string = "ehrs-SPA";
 
     public static DEPENDENCIES : string[] =
                       [
