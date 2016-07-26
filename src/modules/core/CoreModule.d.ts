@@ -1,9 +1,9 @@
-/// <reference path="../../typings/tsd.d.ts" />
+/// <reference path="../../../typings/tsd.d.ts" />
 
 declare module CoreModule {
 
     /////////////////////////////////////////////
-    ////////'/////DTOs Type Defs////////////////
+    //////////////DTOs Type Defs////////////////
     ////////////////////////////////////////////
 
     interface ICommonDTO {
@@ -18,7 +18,19 @@ declare module CoreModule {
 
     }
 
+    interface IBaseController {
+
+    }
+
+    interface ICoreCtrl extends IBaseController {
+
+    }
+
     interface ICommonDirective {
+
+    }
+
+    interface IBaseModule  {
 
     }
 }

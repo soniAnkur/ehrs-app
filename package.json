@@ -20,6 +20,7 @@
     "require": "^2.4.20",
     "requirejs": "^2.2.0",
     "restangular": "^1.5.2",
+    "typescript": "^1.8.10",
     "underscore": "^1.8.3"
   }
 }

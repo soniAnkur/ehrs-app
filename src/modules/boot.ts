@@ -1,4 +1,4 @@
-/// <reference path="../typings/tsd.d.ts" />
+/// <reference path="../../typings/tsd.d.ts" />
 
 /// <amd-dependency path="angular"/>
 /// <amd-dependency path="angular-ui-router"/>
@@ -14,21 +14,21 @@ export class Application {
 
     public static DEPENDENCIES : string[] =
                       [
-                          "ui.router" ,
-                          "restangular" ,
-                          "ui.bootstrap"
+                          /*modules created inside the application*/
                       ];
 
     public bootstrap() : void {
 
-        this.initModules();
+        Application.initModules();
+
+        /*creating the module*/
         angular.module(Application.APP_NAME , Application.DEPENDENCIES);
 
         /*bootstrap the application*/
         angular.bootstrap(document , [Application.APP_NAME], {strictDi: false});
     }
 
-    private initModules() : void {
+    private static initModules() : void {
 
     }
 }
