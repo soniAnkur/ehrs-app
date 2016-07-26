@@ -1,0 +1,10 @@
+{
+  "id": "1",
+  "name": "Ankur Soni",
+  "permissions": [
+    "C",
+    "R",
+    "U",
+    "D"
+  ]
+}
